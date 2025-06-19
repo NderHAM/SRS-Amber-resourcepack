@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:block/white_stained_glass",
+  "overrides": [
+		{ "predicate": {  "custom_model_data": 1 }, "model": "item/warp_effect"},
+    { "predicate": {  "custom_model_data": 2 }, "model": "item/landfall_pad_glow"},
+    { "predicate": {  "custom_model_data": 3 }, "model": "item/large_spinny"},
+    { "predicate": {  "custom_model_data": 4 }, "model": "item/computers_failed"},
+    { "predicate": {  "custom_model_data": 5 }, "model": "item/cargo_ship"},
+    { "predicate": {  "custom_model_data": 6 }, "model": "item/suit_colour_selection"},
+    { "predicate": {  "custom_model_data": 7 }, "model": "item/server_rack_online"},
+    { "predicate": {  "custom_model_data": 8 }, "model": "item/server_rack_error"},
+    { "predicate": {  "custom_model_data": 9 }, "model": "item/big_drill"},
+    { "predicate": {  "custom_model_data": 10 }, "model": "item/big_drill_head"}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/amethyst_bud",
+	"textures": {
+		"layer0": "block/large_amethyst_bud"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+    "firstperson_righthand": {
+      "rotation": [ 0, -90, 25 ],
+      "translation": [ 0, 5, 0 ],
+      "scale": [ 0.68, 0.68, 0.68 ]
+    },
+    "thirdperson_righthand": {
+      "translation": [ 0, 4, 1 ],
+      "scale": [ 0.55, 0.55, 0.55 ]
+    },
+    "head": {
+      "translation": [ 0, 14, -5 ]
+    },
+    "gui": {
+      "translation": [ 0, 0, 0 ]
+    }
+  }
+}

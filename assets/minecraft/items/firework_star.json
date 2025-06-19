@@ -1,0 +1,125 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/1",
+          "tints": []
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/2",
+          "tints": []
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/3",
+          "tints": []
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/4",
+          "tints": []
+        }
+      },{
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/5",
+          "tints": []
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/6",
+          "tints": []
+        }
+      },{
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/7",
+          "tints": []
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/8",
+          "tints": []
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/9",
+          "tints": []
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/10",
+          "tints": []
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/11",
+          "tints": []
+        }
+      },{
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/12",
+          "tints": []
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/13",
+          "tints": []
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/14",
+          "tints": []
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:custom_particles/shockwave/15",
+          "tints": []
+        }
+      }
+    ]
+  }
+}

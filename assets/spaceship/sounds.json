@@ -1,0 +1,87 @@
+{
+    "ftl_windup": {
+        "sounds": [
+            "spaceship:ftl_windup"
+        ]
+    },
+    "ftl_winddown": {
+        "sounds": [
+            "spaceship:ftl_winddown"
+        ]
+    },
+    "ftl_windup_space": {
+        "sounds": [
+            "spaceship:ftl_windup_space"
+        ]
+    },
+    "ftl_winddown_space": {
+        "sounds": [
+            "spaceship:ftl_winddown_space"
+        ]
+    },
+    "ftl_ramp_up_jump": {
+        "sounds": [
+            "spaceship:ftl_ramp_up_jump"
+        ]
+    },
+    "ftl_ramp_down_jump": {
+        "sounds": [
+            "spaceship:ftl_ramp_down_jump"
+        ]
+    },
+    "plaid": {
+        "sounds": [
+            "spaceship:plaid"
+        ]
+    },
+    "ship_ambient": {
+        "sounds": [
+            "spaceship:ship_ambient"
+        ]
+    },
+    "meltdown_moment": {
+        "sounds": [
+            "spaceship:meltdown_moment"
+        ]
+    },
+    "ftl_travel_creaks": {
+        "sounds": [
+            "spaceship:ftl_travel_creaks"
+        ]
+    },
+    "radio/location_1/up_down_beeps": {
+        "sounds": [
+            "spaceship:radio/location_1/up_down_beeps"
+        ]
+    },
+    "radio/message_2": {
+        "sounds": [
+            "spaceship:radio/message_2"
+        ]
+    },
+    "radio/frozen_planet_music": {
+        "sounds": [
+            "spaceship:radio/frozen_planet_music"
+        ]
+    },
+    "server/sorting": {
+	"sounds": [
+	    {"name":"spaceship:server/sorting_1","pitch":0.9},
+            {"name":"spaceship:server/sorting_1","pitch":0.95},
+	    {"name":"spaceship:server/sorting_1","pitch":1},
+	    {"name":"spaceship:server/sorting_1","pitch":1.05},
+	    {"name":"spaceship:server/sorting_1","pitch":1.1},
+	    {"name":"spaceship:server/sorting_2","pitch":0.9},
+            {"name":"spaceship:server/sorting_2","pitch":0.95},
+	    {"name":"spaceship:server/sorting_2","pitch":1},
+	    {"name":"spaceship:server/sorting_2","pitch":1.05},
+	    {"name":"spaceship:server/sorting_2","pitch":1.1},
+            {"name":"spaceship:server/sorting_3","pitch":0.9},
+            {"name":"spaceship:server/sorting_3","pitch":0.95},
+	    {"name":"spaceship:server/sorting_3","pitch":1},
+	    {"name":"spaceship:server/sorting_3","pitch":1.05},
+	    {"name":"spaceship:server/sorting_3","pitch":1.1}
+        ]
+    }
+    
+}

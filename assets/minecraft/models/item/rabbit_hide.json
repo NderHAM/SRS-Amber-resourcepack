@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/rabbit_hide"
+  },
+  "overrides": [
+		{ "predicate": {  "custom_model_data": 1 }, "model": "item/bhp_images/1"},
+		{ "predicate": {  "custom_model_data": 2 }, "model": "item/bhp_images/2"},
+		{ "predicate": {  "custom_model_data": 3 }, "model": "item/bhp_images/3"},
+		{ "predicate": {  "custom_model_data": 4 }, "model": "item/bhp_images/4"},
+		{ "predicate": {  "custom_model_data": 5 }, "model": "item/bhp_images/5"},
+		{ "predicate": {  "custom_model_data": 6 }, "model": "item/bhp_images/6"},
+		{ "predicate": {  "custom_model_data": 7 }, "model": "item/bhp_images/7"}
+	]
+}

@@ -1,0 +1,6 @@
+{
+    "providers": [
+        {"type": "bitmap", "file": "minecraft:font/flash.png","ascent": 900,"height": 1000,"chars": ["℞"]},
+        {"type": "bitmap", "file": "minecraft:font/star_flash.png","ascent": 30,"height": 64,"chars": ["⃼"]}
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/armadilio_scute"
+        },
+        "entries": [
+            {
+                "threshold": 0,
+                "model": {
+                    "type": "model",
+                    "model": "item/ftl_bulb_dead"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "item/ftl_bulb_0"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "item/ftl_bulb_60"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "item/ftl_bulb_120"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "item/ftl_bulb_180"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "item/ftl_bulb_240"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "item/ftl_bulb_300"
+                }
+            }
+        ]
+    }
+}

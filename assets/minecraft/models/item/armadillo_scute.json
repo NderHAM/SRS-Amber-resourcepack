@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/armadilio_scute"
+  },
+  "overrides": [
+		{ "predicate": {  "custom_model_data": 0 }, "model": "item/ftl_bulb_dead"},
+		{ "predicate": {  "custom_model_data": 1 }, "model": "item/ftl_bulb_0"},
+		{ "predicate": {  "custom_model_data": 2 }, "model": "item/ftl_bulb_60"},
+		{ "predicate": {  "custom_model_data": 3 }, "model": "item/ftl_bulb_120"},
+		{ "predicate": {  "custom_model_data": 4 }, "model": "item/ftl_bulb_180"},
+		{ "predicate": {  "custom_model_data": 5 }, "model": "item/ftl_bulb_240"},
+		{ "predicate": {  "custom_model_data": 6 }, "model": "item/ftl_bulb_300"}
+	]
+}

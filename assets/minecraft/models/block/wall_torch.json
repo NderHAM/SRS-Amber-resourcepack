@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glowstick_wall",
+  "textures": {
+    "torch": "minecraft:block/torch"
+  }
+}

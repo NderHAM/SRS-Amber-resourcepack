@@ -1,0 +1,369 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/paper"
+        },
+        "entries": [
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/0"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/1"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/2"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/3"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/4"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/5"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/6"
+                }
+            },
+            {
+                "threshold": 107,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/7"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/8"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/9"
+                }
+            },
+            {
+                "threshold": 1010,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/10"
+                }
+            },
+            {
+                "threshold": 1011,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/11"
+                }
+            },
+            {
+                "threshold": 1012,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/12"
+                }
+            },
+            {
+                "threshold": 1013,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/13"
+                }
+            },
+            {
+                "threshold": 1014,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/14"
+                }
+            },
+            {
+                "threshold": 1015,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/15"
+                }
+            },
+            {
+                "threshold": 1016,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/16"
+                }
+            },
+            {
+                "threshold": 1017,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/17"
+                }
+            },
+            {
+                "threshold": 1018,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/18"
+                }
+            },
+            {
+                "threshold": 1019,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/19"
+                }
+            },
+            {
+                "threshold": 1020,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/20"
+                }
+            },
+            {
+                "threshold": 1021,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/21"
+                }
+            },
+            {
+                "threshold": 1022,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/22"
+                }
+            },
+            {
+                "threshold": 1023,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/23"
+                }
+            },
+            {
+                "threshold": 1024,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/24"
+                }
+            },
+            {
+                "threshold": 1025,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/25"
+                }
+            },
+            {
+                "threshold": 1026,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/26"
+                }
+            },
+            {
+                "threshold": 1027,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/27"
+                }
+            },
+            {
+                "threshold": 1028,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/28"
+                }
+            },
+            {
+                "threshold": 1029,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/29"
+                }
+            },
+            {
+                "threshold": 1030,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/30"
+                }
+            },
+            {
+                "threshold": 1031,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/31"
+                }
+            },
+            {
+                "threshold": 1032,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/32"
+                }
+            },
+            {
+                "threshold": 1033,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/33"
+                }
+            },
+            {
+                "threshold": 1034,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/34"
+                }
+            },
+            {
+                "threshold": 1035,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/35"
+                }
+            },
+            {
+                "threshold": 1036,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/36"
+                }
+            },
+            {
+                "threshold": 1037,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/37"
+                }
+            },
+            {
+                "threshold": 1038,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/38"
+                }
+            },
+            {
+                "threshold": 1039,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/39"
+                }
+            },
+            {
+                "threshold": 1040,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/40"
+                }
+            },
+            {
+                "threshold": 1041,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/41"
+                }
+            },
+            {
+                "threshold": 1042,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/42"
+                }
+            },
+            {
+                "threshold": 1043,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/43"
+                }
+            },
+            {
+                "threshold": 1044,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/44"
+                }
+            },
+            {
+                "threshold": 1045,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/45"
+                }
+            },
+            {
+                "threshold": 1046,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/46"
+                }
+            },
+            {
+                "threshold": 1047,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/47"
+                }
+            },
+            {
+                "threshold": 1048,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/48"
+                }
+            },
+            {
+                "threshold": 1049,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/49"
+                }
+            },
+            {
+                "threshold": 1050,
+                "model": {
+                    "type": "model",
+                    "model": "item/warp_portal_geo/50"
+                }
+            }
+        ]
+    }
+}

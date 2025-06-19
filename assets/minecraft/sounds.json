@@ -1,0 +1,43 @@
+{
+	"block.sculk_vein.break": {
+    "sounds": [
+      "dig/sand1",
+      "dig/sand2",
+      "dig/sand3",
+      "dig/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.break",
+    "replace":true
+  },
+  "block.sculk_vein.hit": {
+    "sounds": [
+      "dig/sand1",
+      "dig/sand2",
+      "dig/sand3",
+      "dig/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.hit",
+    "replace":true
+  },
+  "block.sculk_vein.place": {
+    "sounds": [
+      "dig/sand1",
+      "dig/sand2",
+      "dig/sand3",
+      "dig/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.place",
+    "replace":true
+  },
+  "block.sculk_vein.step": {
+    "sounds": [
+      "step/sand1",
+      "step/sand2",
+      "step/sand3",
+      "step/sand4",
+      "step/sand5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps",
+    "replace":true
+  }
+}
