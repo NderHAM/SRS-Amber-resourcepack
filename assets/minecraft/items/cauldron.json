@@ -13,7 +13,29 @@
                     "type": "model",
                     "model": "item/ftl_rings"
                 }
+            },
+	    {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "item/air_door"
+                }
+            },
+	    {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "item/upper_telescope_base"
+                }
+            },
+	    {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "item/upper_telescope_head"
+                }
             }
+	
         ]
     }
 }

@@ -742,6 +742,15 @@ vec3 Space_above_water_Shader(vec3 v) {
 vec3 Space_above_frozen_Shader(vec3 v) {
     vec3 sky = vec3(0.0,0.0,0.0);
 
+    vec3 sun_pos = vec3(-1.0,0.0,0.0);
+
+    sun_pos = rotateAxis(sun_pos,vec3(0,0,1),-0.75);
+
+    if (dot(sun_pos,v) > 0) {
+        sky += vec3(1.0,0.45,0.3)*pow(dot(sun_pos,v),300)*2.0;
+        sky += vec3(1.0,0.45,0.45)*pow(dot(sun_pos,v),500)*2.0;
+    }
+
     sky += Space_blank_Shader(v);
 
     if (dot(vec3(0,-1,0),v) < 0.5 && dot(vec3(0,-1,0),v) > 0.0) {

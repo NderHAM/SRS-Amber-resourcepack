@@ -119,7 +119,1799 @@
           "model": "minecraft:custom_particles/shockwave/15",
           "tints": []
         }
-      }
+      },
+            {
+                "threshold": 9000,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x0"
+                }
+            },
+            {
+                "threshold": 9001,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x0"
+                }
+            },
+            {
+                "threshold": 9002,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x0"
+                }
+            },
+            {
+                "threshold": 9003,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x0"
+                }
+            },
+            {
+                "threshold": 9004,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x0"
+                }
+            },
+            {
+                "threshold": 9005,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x0"
+                }
+            },
+            {
+                "threshold": 9006,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x0"
+                }
+            },
+            {
+                "threshold": 9007,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x0"
+                }
+            },
+            {
+                "threshold": 9008,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x0"
+                }
+            },
+            {
+                "threshold": 9009,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x0"
+                }
+            },
+            {
+                "threshold": 9010,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x0"
+                }
+            },
+            {
+                "threshold": 9011,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x0"
+                }
+            },
+            {
+                "threshold": 9012,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x0"
+                }
+            },
+            {
+                "threshold": 9013,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x0"
+                }
+            },
+            {
+                "threshold": 9014,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x0"
+                }
+            },
+            {
+                "threshold": 9015,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x0"
+                }
+            },
+            {
+                "threshold": 9016,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x1"
+                }
+            },
+            {
+                "threshold": 9017,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x1"
+                }
+            },
+            {
+                "threshold": 9018,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x1"
+                }
+            },
+            {
+                "threshold": 9019,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x1"
+                }
+            },
+            {
+                "threshold": 9020,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x1"
+                }
+            },
+            {
+                "threshold": 9021,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x1"
+                }
+            },
+            {
+                "threshold": 9022,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x1"
+                }
+            },
+            {
+                "threshold": 9023,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x1"
+                }
+            },
+            {
+                "threshold": 9024,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x1"
+                }
+            },
+            {
+                "threshold": 9025,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x1"
+                }
+            },
+            {
+                "threshold": 9026,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x1"
+                }
+            },
+            {
+                "threshold": 9027,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x1"
+                }
+            },
+            {
+                "threshold": 9028,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x1"
+                }
+            },
+            {
+                "threshold": 9029,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x1"
+                }
+            },
+            {
+                "threshold": 9030,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x1"
+                }
+            },
+            {
+                "threshold": 9031,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x1"
+                }
+            },
+            {
+                "threshold": 9032,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x2"
+                }
+            },
+            {
+                "threshold": 9033,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x2"
+                }
+            },
+            {
+                "threshold": 9034,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x2"
+                }
+            },
+            {
+                "threshold": 9035,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x2"
+                }
+            },
+            {
+                "threshold": 9036,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x2"
+                }
+            },
+            {
+                "threshold": 9037,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x2"
+                }
+            },
+            {
+                "threshold": 9038,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x2"
+                }
+            },
+            {
+                "threshold": 9039,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x2"
+                }
+            },
+            {
+                "threshold": 9040,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x2"
+                }
+            },
+            {
+                "threshold": 9041,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x2"
+                }
+            },
+            {
+                "threshold": 9042,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x2"
+                }
+            },
+            {
+                "threshold": 9043,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x2"
+                }
+            },
+            {
+                "threshold": 9044,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x2"
+                }
+            },
+            {
+                "threshold": 9045,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x2"
+                }
+            },
+            {
+                "threshold": 9046,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x2"
+                }
+            },
+            {
+                "threshold": 9047,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x2"
+                }
+            },
+            {
+                "threshold": 9048,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x3"
+                }
+            },
+            {
+                "threshold": 9049,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x3"
+                }
+            },
+            {
+                "threshold": 9050,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x3"
+                }
+            },
+            {
+                "threshold": 9051,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x3"
+                }
+            },
+            {
+                "threshold": 9052,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x3"
+                }
+            },
+            {
+                "threshold": 9053,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x3"
+                }
+            },
+            {
+                "threshold": 9054,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x3"
+                }
+            },
+            {
+                "threshold": 9055,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x3"
+                }
+            },
+            {
+                "threshold": 9056,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x3"
+                }
+            },
+            {
+                "threshold": 9057,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x3"
+                }
+            },
+            {
+                "threshold": 9058,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x3"
+                }
+            },
+            {
+                "threshold": 9059,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x3"
+                }
+            },
+            {
+                "threshold": 9060,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x3"
+                }
+            },
+            {
+                "threshold": 9061,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x3"
+                }
+            },
+            {
+                "threshold": 9062,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x3"
+                }
+            },
+            {
+                "threshold": 9063,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x3"
+                }
+            },
+            {
+                "threshold": 9064,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x4"
+                }
+            },
+            {
+                "threshold": 9065,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x4"
+                }
+            },
+            {
+                "threshold": 9066,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x4"
+                }
+            },
+            {
+                "threshold": 9067,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x4"
+                }
+            },
+            {
+                "threshold": 9068,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x4"
+                }
+            },
+            {
+                "threshold": 9069,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x4"
+                }
+            },
+            {
+                "threshold": 9070,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x4"
+                }
+            },
+            {
+                "threshold": 9071,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x4"
+                }
+            },
+            {
+                "threshold": 9072,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x4"
+                }
+            },
+            {
+                "threshold": 9073,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x4"
+                }
+            },
+            {
+                "threshold": 9074,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x4"
+                }
+            },
+            {
+                "threshold": 9075,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x4"
+                }
+            },
+            {
+                "threshold": 9076,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x4"
+                }
+            },
+            {
+                "threshold": 9077,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x4"
+                }
+            },
+            {
+                "threshold": 9078,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x4"
+                }
+            },
+            {
+                "threshold": 9079,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x4"
+                }
+            },
+            {
+                "threshold": 9080,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x5"
+                }
+            },
+            {
+                "threshold": 9081,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x5"
+                }
+            },
+            {
+                "threshold": 9082,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x5"
+                }
+            },
+            {
+                "threshold": 9083,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x5"
+                }
+            },
+            {
+                "threshold": 9084,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x5"
+                }
+            },
+            {
+                "threshold": 9085,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x5"
+                }
+            },
+            {
+                "threshold": 9086,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x5"
+                }
+            },
+            {
+                "threshold": 9087,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x5"
+                }
+            },
+            {
+                "threshold": 9088,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x5"
+                }
+            },
+            {
+                "threshold": 9089,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x5"
+                }
+            },
+            {
+                "threshold": 9090,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x5"
+                }
+            },
+            {
+                "threshold": 9091,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x5"
+                }
+            },
+            {
+                "threshold": 9092,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x5"
+                }
+            },
+            {
+                "threshold": 9093,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x5"
+                }
+            },
+            {
+                "threshold": 9094,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x5"
+                }
+            },
+            {
+                "threshold": 9095,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x5"
+                }
+            },
+            {
+                "threshold": 9096,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x6"
+                }
+            },
+            {
+                "threshold": 9097,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x6"
+                }
+            },
+            {
+                "threshold": 9098,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x6"
+                }
+            },
+            {
+                "threshold": 9099,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x6"
+                }
+            },
+            {
+                "threshold": 9100,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x6"
+                }
+            },
+            {
+                "threshold": 9101,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x6"
+                }
+            },
+            {
+                "threshold": 9102,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x6"
+                }
+            },
+            {
+                "threshold": 9103,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x6"
+                }
+            },
+            {
+                "threshold": 9104,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x6"
+                }
+            },
+            {
+                "threshold": 9105,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x6"
+                }
+            },
+            {
+                "threshold": 9106,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x6"
+                }
+            },
+            {
+                "threshold": 9107,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x6"
+                }
+            },
+            {
+                "threshold": 9108,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x6"
+                }
+            },
+            {
+                "threshold": 9109,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x6"
+                }
+            },
+            {
+                "threshold": 9110,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x6"
+                }
+            },
+            {
+                "threshold": 9111,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x6"
+                }
+            },
+            {
+                "threshold": 9112,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x7"
+                }
+            },
+            {
+                "threshold": 9113,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x7"
+                }
+            },
+            {
+                "threshold": 9114,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x7"
+                }
+            },
+            {
+                "threshold": 9115,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x7"
+                }
+            },
+            {
+                "threshold": 9116,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x7"
+                }
+            },
+            {
+                "threshold": 9117,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x7"
+                }
+            },
+            {
+                "threshold": 9118,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x7"
+                }
+            },
+            {
+                "threshold": 9119,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x7"
+                }
+            },
+            {
+                "threshold": 9120,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x7"
+                }
+            },
+            {
+                "threshold": 9121,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x7"
+                }
+            },
+            {
+                "threshold": 9122,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x7"
+                }
+            },
+            {
+                "threshold": 9123,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x7"
+                }
+            },
+            {
+                "threshold": 9124,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x7"
+                }
+            },
+            {
+                "threshold": 9125,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x7"
+                }
+            },
+            {
+                "threshold": 9126,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x7"
+                }
+            },
+            {
+                "threshold": 9127,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x7"
+                }
+            },
+            {
+                "threshold": 9128,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x8"
+                }
+            },
+            {
+                "threshold": 9129,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x8"
+                }
+            },
+            {
+                "threshold": 9130,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x8"
+                }
+            },
+            {
+                "threshold": 9131,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x8"
+                }
+            },
+            {
+                "threshold": 9132,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x8"
+                }
+            },
+            {
+                "threshold": 9133,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x8"
+                }
+            },
+            {
+                "threshold": 9134,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x8"
+                }
+            },
+            {
+                "threshold": 9135,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x8"
+                }
+            },
+            {
+                "threshold": 9136,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x8"
+                }
+            },
+            {
+                "threshold": 9137,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x8"
+                }
+            },
+            {
+                "threshold": 9138,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x8"
+                }
+            },
+            {
+                "threshold": 9139,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x8"
+                }
+            },
+            {
+                "threshold": 9140,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x8"
+                }
+            },
+            {
+                "threshold": 9141,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x8"
+                }
+            },
+            {
+                "threshold": 9142,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x8"
+                }
+            },
+            {
+                "threshold": 9143,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x8"
+                }
+            },
+            {
+                "threshold": 9144,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x9"
+                }
+            },
+            {
+                "threshold": 9145,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x9"
+                }
+            },
+            {
+                "threshold": 9146,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x9"
+                }
+            },
+            {
+                "threshold": 9147,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x9"
+                }
+            },
+            {
+                "threshold": 9148,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x9"
+                }
+            },
+            {
+                "threshold": 9149,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x9"
+                }
+            },
+            {
+                "threshold": 9150,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x9"
+                }
+            },
+            {
+                "threshold": 9151,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x9"
+                }
+            },
+            {
+                "threshold": 9152,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x9"
+                }
+            },
+            {
+                "threshold": 9153,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x9"
+                }
+            },
+            {
+                "threshold": 9154,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x9"
+                }
+            },
+            {
+                "threshold": 9155,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x9"
+                }
+            },
+            {
+                "threshold": 9156,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x9"
+                }
+            },
+            {
+                "threshold": 9157,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x9"
+                }
+            },
+            {
+                "threshold": 9158,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x9"
+                }
+            },
+            {
+                "threshold": 9159,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x9"
+                }
+            },
+            {
+                "threshold": 9160,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x10"
+                }
+            },
+            {
+                "threshold": 9161,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x10"
+                }
+            },
+            {
+                "threshold": 9162,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x10"
+                }
+            },
+            {
+                "threshold": 9163,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x10"
+                }
+            },
+            {
+                "threshold": 9164,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x10"
+                }
+            },
+            {
+                "threshold": 9165,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x10"
+                }
+            },
+            {
+                "threshold": 9166,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x10"
+                }
+            },
+            {
+                "threshold": 9167,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x10"
+                }
+            },
+            {
+                "threshold": 9168,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x10"
+                }
+            },
+            {
+                "threshold": 9169,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x10"
+                }
+            },
+            {
+                "threshold": 9170,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x10"
+                }
+            },
+            {
+                "threshold": 9171,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x10"
+                }
+            },
+            {
+                "threshold": 9172,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x10"
+                }
+            },
+            {
+                "threshold": 9173,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x10"
+                }
+            },
+            {
+                "threshold": 9174,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x10"
+                }
+            },
+            {
+                "threshold": 9175,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x10"
+                }
+            },
+            {
+                "threshold": 9176,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x11"
+                }
+            },
+            {
+                "threshold": 9177,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x11"
+                }
+            },
+            {
+                "threshold": 9178,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x11"
+                }
+            },
+            {
+                "threshold": 9179,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x11"
+                }
+            },
+            {
+                "threshold": 9180,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x11"
+                }
+            },
+            {
+                "threshold": 9181,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x11"
+                }
+            },
+            {
+                "threshold": 9182,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x11"
+                }
+            },
+            {
+                "threshold": 9183,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x11"
+                }
+            },
+            {
+                "threshold": 9184,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x11"
+                }
+            },
+            {
+                "threshold": 9185,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x11"
+                }
+            },
+            {
+                "threshold": 9186,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x11"
+                }
+            },
+            {
+                "threshold": 9187,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x11"
+                }
+            },
+            {
+                "threshold": 9188,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x11"
+                }
+            },
+            {
+                "threshold": 9189,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x11"
+                }
+            },
+            {
+                "threshold": 9190,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x11"
+                }
+            },
+            {
+                "threshold": 9191,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x11"
+                }
+            },
+            {
+                "threshold": 9192,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x12"
+                }
+            },
+            {
+                "threshold": 9193,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x12"
+                }
+            },
+            {
+                "threshold": 9194,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x12"
+                }
+            },
+            {
+                "threshold": 9195,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x12"
+                }
+            },
+            {
+                "threshold": 9196,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x12"
+                }
+            },
+            {
+                "threshold": 9197,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x12"
+                }
+            },
+            {
+                "threshold": 9198,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x12"
+                }
+            },
+            {
+                "threshold": 9199,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x12"
+                }
+            },
+            {
+                "threshold": 9200,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x12"
+                }
+            },
+            {
+                "threshold": 9201,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x12"
+                }
+            },
+            {
+                "threshold": 9202,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x12"
+                }
+            },
+            {
+                "threshold": 9203,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x12"
+                }
+            },
+            {
+                "threshold": 9204,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x12"
+                }
+            },
+            {
+                "threshold": 9205,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x12"
+                }
+            },
+            {
+                "threshold": 9206,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x12"
+                }
+            },
+            {
+                "threshold": 9207,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x12"
+                }
+            },
+            {
+                "threshold": 9208,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x13"
+                }
+            },
+            {
+                "threshold": 9209,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x13"
+                }
+            },
+            {
+                "threshold": 9210,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x13"
+                }
+            },
+            {
+                "threshold": 9211,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x13"
+                }
+            },
+            {
+                "threshold": 9212,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x13"
+                }
+            },
+            {
+                "threshold": 9213,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x13"
+                }
+            },
+            {
+                "threshold": 9214,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x13"
+                }
+            },
+            {
+                "threshold": 9215,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x13"
+                }
+            },
+            {
+                "threshold": 9216,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x13"
+                }
+            },
+            {
+                "threshold": 9217,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x13"
+                }
+            },
+            {
+                "threshold": 9218,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x13"
+                }
+            },
+            {
+                "threshold": 9219,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x13"
+                }
+            },
+            {
+                "threshold": 9220,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x13"
+                }
+            },
+            {
+                "threshold": 9221,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x13"
+                }
+            },
+            {
+                "threshold": 9222,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x13"
+                }
+            },
+            {
+                "threshold": 9223,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x13"
+                }
+            },
+            {
+                "threshold": 9224,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x14"
+                }
+            },
+            {
+                "threshold": 9225,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x14"
+                }
+            },
+            {
+                "threshold": 9226,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x14"
+                }
+            },
+            {
+                "threshold": 9227,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x14"
+                }
+            },
+            {
+                "threshold": 9228,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x14"
+                }
+            },
+            {
+                "threshold": 9229,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x14"
+                }
+            },
+            {
+                "threshold": 9230,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x14"
+                }
+            },
+            {
+                "threshold": 9231,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x14"
+                }
+            },
+            {
+                "threshold": 9232,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x14"
+                }
+            },
+            {
+                "threshold": 9233,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x14"
+                }
+            },
+            {
+                "threshold": 9234,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x14"
+                }
+            },
+            {
+                "threshold": 9235,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x14"
+                }
+            },
+            {
+                "threshold": 9236,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x14"
+                }
+            },
+            {
+                "threshold": 9237,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x14"
+                }
+            },
+            {
+                "threshold": 9238,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x14"
+                }
+            },
+            {
+                "threshold": 9239,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x14"
+                }
+            },
+            {
+                "threshold": 9240,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/0x15"
+                }
+            },
+            {
+                "threshold": 9241,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/1x15"
+                }
+            },
+            {
+                "threshold": 9242,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/2x15"
+                }
+            },
+            {
+                "threshold": 9243,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/3x15"
+                }
+            },
+            {
+                "threshold": 9244,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/4x15"
+                }
+            },
+            {
+                "threshold": 9245,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/5x15"
+                }
+            },
+            {
+                "threshold": 9246,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/6x15"
+                }
+            },
+            {
+                "threshold": 9247,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/7x15"
+                }
+            },
+            {
+                "threshold": 9248,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/8x15"
+                }
+            },
+            {
+                "threshold": 9249,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/9x15"
+                }
+            },
+            {
+                "threshold": 9250,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/10x15"
+                }
+            },
+            {
+                "threshold": 9251,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/11x15"
+                }
+            },
+            {
+                "threshold": 9252,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/12x15"
+                }
+            },
+            {
+                "threshold": 9253,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/13x15"
+                }
+            },
+            {
+                "threshold": 9254,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/14x15"
+                }
+            },
+            {
+                "threshold": 9255,
+                "model": {
+                    "type": "model",
+                    "model": "textmode_display/15x15"
+                }
+            }
     ]
   }
 }
