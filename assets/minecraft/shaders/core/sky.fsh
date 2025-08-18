@@ -1,15 +1,12 @@
 #version 430
 
-#moj_import <fog.glsl>
+#moj_import <minecraft:fog.glsl>
+#moj_import <minecraft:dynamictransforms.glsl>
+#moj_import <minecraft:globals.glsl>
+#moj_import <minecraft:projection.glsl>
 
-uniform vec4 ColorModulator;
-uniform float GameTime;
-uniform float FogStart;
-uniform float FogEnd;
-uniform vec4 FogColor;
-uniform mat4 ModelViewMat;
-uniform mat4 ProjMat;
-uniform vec2 ScreenSize;
+in float sphericalVertexDistance;
+in float cylindricalVertexDistance;
 
 in float vertexDistance;
 in vec4 rawPos;
@@ -1097,6 +1094,7 @@ void main() {
         return;
     }
     if (sky_tint == space_blank_activator) {
+        //v = rotateAxis(v,vec3(0.0,0.0,1.0),(GameTime*1200)*0.15);
         fragColor = vec4(Space_blank_Shader(v), 1.0);
         return;
     }
