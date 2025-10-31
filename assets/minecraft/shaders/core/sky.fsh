@@ -1046,6 +1046,35 @@ vec3 Molten_planet_shader(vec3 v) {
     return sky;
 }
 
+vec3 Ftl_transition_Shader(vec3 v) {
+    vec3 point_of_zoom = vec3(0.0,0.0,1.0);
+    vec3 v1 = v;
+    vec3 v2 = normalize(rotateAxis(v,cross(v,point_of_zoom),clamp(sin(GameTime*500.0),0.0,0.5)*TAU));
+    vec3 sky = vec3(0.0,0.0,0.0);
+
+    /*if (dot(v2,v1)>dot(v1,point_of_zoom)&&clamp(sin(GameTime*500.0),-0.5,0.5)>0.0) {
+        sky += Ftl_Shader(-v2);
+    }else{
+        sky += Space_above_water_Shader(v2);
+    }*/
+    if (dot(v2,v1)<dot(v1,point_of_zoom)&&clamp(sin(GameTime*500.0),0.0,0.5)>0.0) {
+        sky += Ftl_Shader(-v2);
+    }else{
+        sky += Space_above_water_Shader(v2);
+    }
+    //sky += dot(v1,point_of_zoom);
+
+    //sky += Ftl_Shader(v2);
+
+    // Spacial dithering to remove banding
+    float grid_position = fract(dot(gl_FragCoord.xy - vec2(0.5,0.5), vec2(1.0/16.0,10.0/36.0)+0.25));
+    float dither = grid_position / 256;
+
+    sky += dither;
+
+    return sky;
+}
+
 const vec3 ftl_activator = vec3(1.0,1.0,1.0);
 const vec3 space_blank_activator = vec3(0.0,0.0,0.0);
 const vec3 space_blackhole_activator = vec3(1.0,0.490196078,0.0);
@@ -1095,7 +1124,7 @@ void main() {
     }
     if (sky_tint == space_blank_activator) {
         //v = rotateAxis(v,vec3(0.0,0.0,1.0),(GameTime*1200)*0.15);
-        fragColor = vec4(Space_blank_Shader(v), 1.0);
+        fragColor = vec4(Ftl_transition_Shader(v), 1.0);
         return;
     }
     if (sky_tint == space_blackhole_activator) {
