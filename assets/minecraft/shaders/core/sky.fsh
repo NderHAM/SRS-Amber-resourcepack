@@ -121,6 +121,11 @@ const vec4 water_planet_tex_new[1024] = {
 	vec4(0.0000000, 0.0000000, 0.0000000, 0.0000000), vec4(0.0000000, 0.0000000, 0.0000000, 0.0000000), vec4(0.4274510, 0.5411765, 0.6039216, 0.5450980), vec4(0.3058824, 0.6117647, 0.6196078, 1.0000000), vec4(0.4274510, 0.4941176, 0.5176471, 1.0000000), vec4(0.3921569, 0.4705882, 0.4431373, 1.0000000), vec4(0.3843137, 0.4588235, 0.4000000, 1.0000000), vec4(0.3843137, 0.4588235, 0.4000000, 1.0000000), vec4(0.4039216, 0.4705882, 0.4470588, 1.0000000), vec4(0.3843137, 0.4588235, 0.4000000, 1.0000000), vec4(0.3843137, 0.4588235, 0.4000000, 1.0000000), vec4(0.3098039, 0.4156863, 0.3686275, 1.0000000), vec4(0.3098039, 0.4156863, 0.3686275, 1.0000000), vec4(0.3098039, 0.4156863, 0.3686275, 1.0000000), vec4(0.3098039, 0.4156863, 0.3686275, 1.0000000), vec4(0.3333333, 0.4431373, 0.3882353, 1.0000000), vec4(0.3098039, 0.4156863, 0.3686275, 1.0000000), vec4(0.3098039, 0.4156863, 0.3686275, 1.0000000), vec4(0.3098039, 0.4156863, 0.3686275, 1.0000000), vec4(0.3333333, 0.4431373, 0.3882353, 1.0000000), vec4(0.3333333, 0.4431373, 0.3882353, 1.0000000), vec4(0.2392157, 0.6627451, 0.6509804, 1.0000000), vec4(0.2392157, 0.6627451, 0.6509804, 1.0000000), vec4(0.2392157, 0.6627451, 0.6509804, 1.0000000), vec4(0.2392157, 0.6627451, 0.6509804, 1.0000000), vec4(0.2666667, 0.6313725, 0.6235294, 1.0000000), vec4(0.2392157, 0.6627451, 0.6509804, 1.0000000), vec4(0.3921569, 0.4705882, 0.4431373, 1.0000000), vec4(0.3843137, 0.4588235, 0.4000000, 1.0000000), vec4(1.0000000, 1.0000000, 1.0000000, 0.0000000), vec4(1.0000000, 1.0000000, 1.0000000, 0.0000000), vec4(1.0000000, 1.0000000, 1.0000000, 0.0000000)
 };
 
+//https://gist.github.com/companje/29408948f1e8be54dd5733a74ca49bb9
+float map(float value, float min1, float max1, float min2, float max2) {
+  return min2 + (value - min1) * (max2 - min2) / (max1 - min1);
+}
+
 // most of the code came from here https://www.reddit.com/r/Minecraft/comments/m36l6d/comment/gqn7dgz/
 // im just using this as a base for my skybox shaders
 
@@ -1046,25 +1051,18 @@ vec3 Molten_planet_shader(vec3 v) {
     return sky;
 }
 
-vec3 Ftl_transition_Shader(vec3 v) {
+vec3 Ftl_Transition_In_Shader(vec3 v, vec3 sky_tint) {
     vec3 point_of_zoom = vec3(0.0,0.0,1.0);
     vec3 v1 = v;
-    vec3 v2 = normalize(rotateAxis(v,cross(v,point_of_zoom),clamp(sin(GameTime*500.0),0.0,0.5)*TAU));
+    float warptime = clamp(sin(GameTime*TAU*(250.0/TAU)),0,0.5);
+    vec3 v2 = normalize(rotateAxis(v,cross(v,point_of_zoom),warptime*TAU));
     vec3 sky = vec3(0.0,0.0,0.0);
 
-    /*if (dot(v2,v1)>dot(v1,point_of_zoom)&&clamp(sin(GameTime*500.0),-0.5,0.5)>0.0) {
-        sky += Ftl_Shader(-v2);
-    }else{
-        sky += Space_above_water_Shader(v2);
-    }*/
-    if (dot(v2,v1)<dot(v1,point_of_zoom)&&clamp(sin(GameTime*500.0),0.0,0.5)>0.0) {
+    if (dot(v2,v1)<dot(v1,point_of_zoom)&&warptime>0.0) {
         sky += Ftl_Shader(-v2);
     }else{
         sky += Space_above_water_Shader(v2);
     }
-    //sky += dot(v1,point_of_zoom);
-
-    //sky += Ftl_Shader(v2);
 
     // Spacial dithering to remove banding
     float grid_position = fract(dot(gl_FragCoord.xy - vec2(0.5,0.5), vec2(1.0/16.0,10.0/36.0)+0.25));
@@ -1074,6 +1072,29 @@ vec3 Ftl_transition_Shader(vec3 v) {
 
     return sky;
 }
+
+vec3 Ftl_Transition_Out_Shader(vec3 v,vec3 sky_tint) {
+    vec3 point_of_zoom = vec3(0.0,0.0,-1.0);
+    vec3 v1 = v;
+    float warptime = clamp(sin(GameTime*TAU*(250.0/TAU)),0,0.5);
+    vec3 v2 = normalize(rotateAxis(v,cross(v,point_of_zoom),warptime*TAU));
+    vec3 sky = vec3(0.0,0.0,0.0);
+
+    if (dot(v2,v1)<dot(v1,point_of_zoom)&&warptime>0.0) {
+        sky += Ftl_Shader(-v2);
+    }else{
+        sky += Space_above_water_Shader(v2);
+    }
+
+    // Spacial dithering to remove banding
+    float grid_position = fract(dot(gl_FragCoord.xy - vec2(0.5,0.5), vec2(1.0/16.0,10.0/36.0)+0.25));
+    float dither = grid_position / 256;
+
+    sky += dither;
+
+    return sky;
+}
+
 
 const vec3 ftl_activator = vec3(1.0,1.0,1.0);
 const vec3 space_blank_activator = vec3(0.0,0.0,0.0);
@@ -1124,7 +1145,7 @@ void main() {
     }
     if (sky_tint == space_blank_activator) {
         //v = rotateAxis(v,vec3(0.0,0.0,1.0),(GameTime*1200)*0.15);
-        fragColor = vec4(Ftl_transition_Shader(v), 1.0);
+        fragColor = vec4(Ftl_Transition_Out_Shader(v,sky_tint), 1.0);
         return;
     }
     if (sky_tint == space_blackhole_activator) {
