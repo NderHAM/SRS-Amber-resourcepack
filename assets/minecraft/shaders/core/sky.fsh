@@ -331,8 +331,26 @@ vec3 hueShift( vec3 color, float hueAdjust ){
 }
 
 
-vec3 rotateAxis(vec3 p, vec3 axis, float angle) {
+vec3 rotateAxisOld(vec3 p, vec3 axis, float angle) {
     return mix(dot(axis, p)*axis, p, cos(angle)) + cross(axis,p)*sin(angle);
+}
+
+//https://gist.github.com/yiwenl/3f804e80d0930e34a0b33359259b556c
+mat4 rotationMatrix(vec3 axis, float angle) {
+    axis = normalize(axis);
+    float s = sin(angle);
+    float c = cos(angle);
+    float oc = 1.0 - c;
+    
+    return mat4(oc * axis.x * axis.x + c,           oc * axis.x * axis.y - axis.z * s,  oc * axis.z * axis.x + axis.y * s,  0.0,
+                oc * axis.x * axis.y + axis.z * s,  oc * axis.y * axis.y + c,           oc * axis.y * axis.z - axis.x * s,  0.0,
+                oc * axis.z * axis.x - axis.y * s,  oc * axis.y * axis.z + axis.x * s,  oc * axis.z * axis.z + c,           0.0,
+                0.0,                                0.0,                                0.0,                                1.0);
+}
+//https://gist.github.com/yiwenl/3f804e80d0930e34a0b33359259b556c
+vec3 rotateAxis(vec3 v, vec3 axis, float angle) {
+    mat4 m = rotationMatrix(axis, angle);
+    return (m * vec4(v, 1.0)).xyz;
 }
 
 // Minimum temperature to represent.
@@ -1051,40 +1069,24 @@ vec3 Molten_planet_shader(vec3 v) {
     return sky;
 }
 
-vec3 Ftl_Transition_In_Shader(vec3 v, vec3 sky_tint) {
-    vec3 point_of_zoom = vec3(0.0,0.0,1.0);
+vec3 Ftl_Transition_Shader(vec3 v,vec3 sky_tint) {
+    float GameTime_x = GameTime*PI*(750.0/PI);
+    float warptime_a = (sin(GameTime_x+PI/2.0)+1.0) * ceil(sin(GameTime_x/2+PI*1.5));
+    float warptime_b = (sin(GameTime_x+PI*1.5)+1.0) * ceil(sin(GameTime_x/2+PI));
+    float warptime = clamp((warptime_a + warptime_b),0.0,2.0)/2.0;
+    float zoom_dir = ceil(sin(GameTime_x/2.0+PI/(4/3)))*2.0-1.0;
+    vec3 point_of_zoom = vec3(0.0,0.0,-zoom_dir);
     vec3 v1 = v;
-    float warptime = clamp(sin(GameTime*TAU*(250.0/TAU)),0,0.5);
-    vec3 v2 = normalize(rotateAxis(v,cross(v,point_of_zoom),warptime*TAU));
+    vec3 v2 = normalize(rotateAxis(v,cross(v,point_of_zoom),-warptime*PI));
     vec3 sky = vec3(0.0,0.0,0.0);
 
-    if (dot(v2,v1)<dot(v1,point_of_zoom)&&warptime>0.0) {
+    
+    if (dot(v2,v1)<dot(v1,point_of_zoom)) {
         sky += Ftl_Shader(-v2);
     }else{
         sky += Space_above_water_Shader(v2);
     }
-
-    // Spacial dithering to remove banding
-    float grid_position = fract(dot(gl_FragCoord.xy - vec2(0.5,0.5), vec2(1.0/16.0,10.0/36.0)+0.25));
-    float dither = grid_position / 256;
-
-    sky += dither;
-
-    return sky;
-}
-
-vec3 Ftl_Transition_Out_Shader(vec3 v,vec3 sky_tint) {
-    vec3 point_of_zoom = vec3(0.0,0.0,-1.0);
-    vec3 v1 = v;
-    float warptime = clamp(sin(GameTime*TAU*(250.0/TAU)),0,0.5);
-    vec3 v2 = normalize(rotateAxis(v,cross(v,point_of_zoom),warptime*TAU));
-    vec3 sky = vec3(0.0,0.0,0.0);
-
-    if (dot(v2,v1)<dot(v1,point_of_zoom)&&warptime>0.0) {
-        sky += Ftl_Shader(-v2);
-    }else{
-        sky += Space_above_water_Shader(v2);
-    }
+    
 
     // Spacial dithering to remove banding
     float grid_position = fract(dot(gl_FragCoord.xy - vec2(0.5,0.5), vec2(1.0/16.0,10.0/36.0)+0.25));
@@ -1144,8 +1146,8 @@ void main() {
         return;
     }
     if (sky_tint == space_blank_activator) {
-        //v = rotateAxis(v,vec3(0.0,0.0,1.0),(GameTime*1200)*0.15);
-        fragColor = vec4(Ftl_Transition_Out_Shader(v,sky_tint), 1.0);
+        fragColor = vec4(Ftl_Transition_Shader(v,sky_tint), 1.0);
+        //fragColor = vec4(Space_blank_Shader(v),1.0);
         return;
     }
     if (sky_tint == space_blackhole_activator) {
