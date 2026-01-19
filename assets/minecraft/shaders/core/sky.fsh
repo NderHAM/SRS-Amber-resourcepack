@@ -833,6 +833,41 @@ vec3 Space_above_molten_Shader(vec3 v) {
     return sky;
 }
 
+vec3 Space_BarnardStarB_Shader(vec3 v) {
+    vec3 sky = vec3(0.0,0.0,0.0);
+
+    v = rotateAxis(v,vec3(0,0,-1),PI/2);
+
+    sky += Space_blank_Shader(v);
+
+    if (dot(vec3(0,-1,0),v) < 0.5 && dot(vec3(0,-1,0),v) > 0.0) {
+        sky += vec3(1.0,0.4,0.2)*pow(dot(vec3(0,-1,0),v)*2.0,10.0);
+    }
+
+    if (dot(vec3(0,-1,0),v) > 0.5) {
+        vec3 vp = rotateAxis(v,vec3(1,0,0),PI);
+        vp = rotateAxis(vp,vec3(0,1,0),GameTime*10.0);
+        vec4 texture = small_sky_texture(vp,molten_planet_tex,0.25);
+        sky = sky*((-texture.w)+1);
+        sky += texture.xyz/1.5;
+    }
+
+    if (dot(vec3(0,-1,0),v) > 0.5 && dot(vec3(0,-1,0),v) > 0.0) {
+        sky += vec3(1.0,0.4,0.2)*((-dot(vec3(0,-1,0),v)+1.0)*2.0);
+    }
+
+    //sky *= dot(vec3(0,-1,0),v);
+
+
+    // Spacial dithering to remove banding
+    float grid_position = fract(dot(gl_FragCoord.xy - vec2(0.5,0.5), vec2(1.0/16.0,10.0/36.0)+0.25));
+    float dither = grid_position / 256.0;
+
+    sky += dither;
+
+    return sky;
+}
+
 vec3 FtlStars(vec3 v) {
 
     v = rotateAxis(v,vec3(0,0,1),cos(GameTime*250)*2);
@@ -1070,7 +1105,7 @@ vec3 Molten_planet_shader(vec3 v) {
 }
 
 vec3 Ftl_Transition_Shader(vec3 v,vec3 sky_tint) {
-    float GameTime_x = GameTime*PI*(750.0/PI);
+    float GameTime_x = GameTime*TAU*125.0;
     float warptime_a = (sin(GameTime_x+PI/2.0)+1.0) * ceil(sin(GameTime_x/2+PI*1.5));
     float warptime_b = (sin(GameTime_x+PI*1.5)+1.0) * ceil(sin(GameTime_x/2+PI));
     float warptime = clamp((warptime_a + warptime_b),0.0,2.0)/2.0;
@@ -1084,7 +1119,7 @@ vec3 Ftl_Transition_Shader(vec3 v,vec3 sky_tint) {
     if (dot(v2,v1)<dot(v1,point_of_zoom)) {
         sky += Ftl_Shader(-v2);
     }else{
-        sky += Space_above_water_Shader(v2);
+        sky += Space_above_frozen_Shader(v2);
     }
     
 
@@ -1146,8 +1181,8 @@ void main() {
         return;
     }
     if (sky_tint == space_blank_activator) {
-        fragColor = vec4(Ftl_Transition_Shader(v,sky_tint), 1.0);
-        //fragColor = vec4(Space_blank_Shader(v),1.0);
+        //fragColor = vec4(Ftl_Transition_Shader(v,sky_tint), 1.0);
+        fragColor = vec4(Space_BarnardStarB_Shader(v),1.0);
         return;
     }
     if (sky_tint == space_blackhole_activator) {

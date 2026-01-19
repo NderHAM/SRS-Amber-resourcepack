@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/radiator_glow.png",
+      "ascent": 1,
+      "height": 1,
+      "chars": [
+        "1"
+      ]
+    }
+  ]
+}
