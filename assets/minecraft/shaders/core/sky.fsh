@@ -126,8 +126,7 @@ float map(float value, float min1, float max1, float min2, float max2) {
   return min2 + (value - min1) * (max2 - min2) / (max1 - min1);
 }
 
-// most of the code came from here https://www.reddit.com/r/Minecraft/comments/m36l6d/comment/gqn7dgz/
-// im just using this as a base for my skybox shaders
+// im just using this as a base for my skybox shaders: https://www.reddit.com/r/Minecraft/comments/m36l6d/comment/gqn7dgz/
 
 //
 //  Simplex Perlin Noise 3D
